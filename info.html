@@ -39,7 +39,8 @@ i="0" + i;
 </script> 
 </head> 
 
-<body onload="startTime()"> 
+<body oncontextmenu=self.event.returnValue=false onselectstart="return false" onload="startTime()"> 
+<body background="./pic/paper.gif">
 当前时间：<font color="#FF0000"><span id="nowDateTimeSpan"></span></font>  
 
 <br> </br>
